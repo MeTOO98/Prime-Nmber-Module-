@@ -13,20 +13,21 @@ A simple Python module for checking whether a number is a prime. It includes two
 
 You can clone the repository and import the module into your Python project:
 
-'''bash
+```bash
 git clone https://github.com/your-username/PrimeNum.git
+```
+
 Then, import the module in your Python script:
-'''
-
-
+```bash
 from PrimeNum import prime_num1, prime_num2
-Usage
+```
+
+## Usage
+```bash
 prime_num1(num)
 Basic version of prime number check.
 
-python
-Copy
-Edit
+
 >>> from PrimeNum import prime_num1
 >>> prime_num1(7)
 True
@@ -36,20 +37,21 @@ False
 prime_num2(num)
 More optimized version of the prime number check.
 
-python
-Copy
-Edit
+
 >>> from PrimeNum import prime_num2
 >>> prime_num2(11)
 True
 
 >>> prime_num2(-4)
 False
-Function Descriptions
-prime_num1(num)
+```
+
+## Function Descriptions
+
+#### prime_num1(num)
 Returns True if num is prime; otherwise False. Handles negatives by converting them to positive. Loops up to num - 1.
 
-prime_num2(num)
+#### prime_num2(num)
 Optimized prime check that loops only up to num // 2 for better performance on larger values.
 
 
