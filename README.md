@@ -34,6 +34,7 @@ True
 
 >>> prime_num1(8)
 False
+
 prime_num2(num)
 More optimized version of the prime number check.
 
